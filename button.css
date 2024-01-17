@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+
+}
+button{
+    width: 200px;
+    height: 100px;
+    margin: 20%;
+    border-radius: 30px;
+    font-size: 35px;
+    box-shadow: 2px 2px 30px 2px rgb(147, 67, 18);
+}
+.container{
+    font-size: 30px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgb(90, 89, 86);
+    color: aliceblue;
+    border: none;
+    
+}
+footer{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(119, 81, 25);
+    text-align: center;
+}
