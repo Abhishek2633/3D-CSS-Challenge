@@ -1,0 +1,65 @@
+body{
+   
+    background-image: url(./image2.jpg);
+    background-color: beige;
+    height: 100vh;
+    background-size: 190vh;
+
+}
+header{
+    display: flex;
+    justify-content:center;
+    
+    
+}
+main{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+.Home{
+    font-size: 30px;
+    margin: 23px 45px;
+}
+.Home:hover{
+    color: aliceblue;
+}
+.About{
+    margin: 23px 45px;
+    font-size: 30px;
+}
+.About:hover{
+    color: aliceblue;
+}
+.Login{
+    margin: 23px 45px;
+    font-size: 30px;
+}
+.Login:hover{
+    color: aliceblue;
+}
+.lorem{
+    font-size: 23px;
+    line-height: 35px;
+    color: aliceblue;
+    margin-top: 125px;
+}
+img{
+    border-radius: 25px;
+    height: 600px;
+    
+}
+button{
+    width: 180px;
+    height: 50px;
+    margin: 2%;
+    border-radius: 30px;
+    font-size: 28px;
+    box-shadow: 2px 2px 30px 2px rgb(147, 67, 18);
+}
+button:hover{
+    background-color: rgb(90, 89, 86);
+    color: aliceblue;
+    border: none;
+    
+}
