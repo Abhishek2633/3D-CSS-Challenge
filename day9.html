@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day9.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <header class="container">
+    <a class="logo" href="#Logo">Abhishek</a>
+    <i class='bx bx-menu' id="menu"></i>
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#About">About Us</a>
+        <a href="#Contact">Contact Us</a>
+        <a href="#More">More</a>
+    </nav>
+   </header>
+   <main>
+    <section class="medical">
+        <div class="day3">
+            <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates possimus, esse facilis cumque iste doloribus cupiditate temporibus quae, optio animi tempore quis adipisci distinctio ab. Cupiditate, perspiciatis ullam. Fugiat porro accusamus repellendus a vero!</div>
+            <button>Know More</button>
+            </div>
+           <img src="image3.jpg">
+    </section>
+    <section class="gallery">
+    <img src="day8(1).jpeg">
+    <img src="day8(2).jpeg">
+    <img src="day8(3).jpeg">
+    <img src="day8(4).jpeg">
+    <img src="day8(5).jpeg">
+    <img src="day8(6).jpeg">
+    <img src="day8(7).jpeg">
+    <img src="day8(8).webp">
+    <img src="day8(9).jpeg">
+    <img src="day8(10).jpeg">
+    </section>
+    
+    <section class="Card">
+        
+        <div class="name">Card</div>
+        <div class="All">
+        <div class="card">
+            <img src="card1.png">
+            <button>Day1</button>
+        </div>
+        <div class="card">
+            <img src="card2.png">
+            <button>Day2</button>
+        </div>
+        <div class="card">
+            <img src="card3.png">
+            <button>Day3</button>
+        </div>
+        <div class="card">
+            <img src="card4.png">
+            <button>Day4</button>
+        </div>
+        <div class="card">
+            <img src="card6.png">
+            <button>Day6</button>
+        </div>
+    </div>
+
+    </section>
+   </main>
+   <script>
+    var menu=document.querySelector('#menu')
+    var navbar=document.querySelector('.nav')
+    menu.addEventListener('click',()=>{
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('active')
+    })
+   </script>
+  
+    
+</body>
+</html>
