@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(87, 90, 90);
+}
+.container{
+    background-color: rgb(111, 108, 108);
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container a{
+     
+    list-style-type: none;
+    text-decoration: none;
+    
+
+}
+.bx{
+    font-size: 36px;
+    
+}
+#menu{
+    display: none;
+}
+.logo{
+    font-size: 34px;
+    color: rgb(216, 231, 47);
+    margin-left:10px ;
+}
+.nav a{
+    color: black;
+    padding-top: 45px;
+    padding-left:16px;
+    font-size: 25px;
+    margin-right: 10px;
+    
+    
+}
+.nav:hover{
+    color: rgb(214, 220, 224);
+}
+a:hover{
+    color: aliceblue;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+    margin-top: 32px;
+    
+    
+}
+.gallery img{
+    height: 350px;
+    width: 350px;
+}
+/*day3*/
+.medical{
+   
+    background-image: url(./image2.jpg);
+    background-color: beige;
+    height: 100vh;
+    background-size: 190vh;
+    display: flex;
+    margin-top: 12px;
+    
+
+}
+
+
+.Home{
+    font-size: 30px;
+    margin: 23px 45px;
+}
+
+
+.lorem{
+    font-size: 23px;
+    line-height: 35px;
+    color: aliceblue;
+    margin-top: 125px;
+    margin-left: 10px;
+}
+.medical img{
+    margin-top: 50px;
+    border-radius: 25px;
+    height: 600px;
+    margin-right: 12px;
+    
+}
+button{
+    width: 180px;
+    height: 50px;
+    margin: 2%;
+    border-radius: 30px;
+    font-size: 28px;
+    box-shadow: 2px 2px 30px 2px rgb(147, 67, 18);
+}
+button:hover{
+    background-color: rgb(90, 89, 86);
+    color: aliceblue;
+    border: none;
+    
+}
+.All img{
+    height: 380px;
+    width: 380px;
+    border-radius: 12px 12px 0px 0px;
+   
+}
+.Card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.name{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: aliceblue;
+}
+.All{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    height: 480px;
+    width: 380px;
+    background-color: aliceblue;
+    margin: 12px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 20px 0px rgb(64, 63, 61);
+    
+}
+.card:hover{
+    animation: abhi 2s infinite  forwards;
+}
+
+.card button{
+    width: 150px;
+    height: 50px;
+    margin: 32px 98px;
+    border-radius: 20px;
+    font-size: 28px;
+    box-shadow: 2px 2px 20px 2px rgb(66, 64, 63);
+}
+@keyframes abhi {
+    from{
+        transform:rotateY(180deg);
+    }
+   to{
+   transform: rotateY(360deg);
+   }
+}
+ 
+
+@media screen and (max-width:750px) {
+    #menu{
+        display: block;
+    }
+    .nav{
+        position: fixed;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        display:none;
+        
+        
+    }
+    .nav a{
+        display:block;
+        color: antiquewhite;
+        padding-top: 1.5rem;
+    }
+    .nav.active{
+        display: block;
+    }
+    .nav a:hover{
+        background-color: black;
+    }
+    
+}
